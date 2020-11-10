@@ -1,0 +1,64 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWite: #f3f3f3;
+  --lightDark: #232528;
+  --lightYellow: #ffa400;
+  --mainRed: #db1b1b;
+}
+
+body {
+  font-family: "Oswald", "sana-serif" !important;
+  background: var(--mainWite) !important;
+  color: var(--lightDark) !important;
+}
+/* ================================== */
+
+/*  Navbar */
+.nav-wrapper {
+  background: var(--mainBlue) !important;
+}
+.nav-link {
+  color: var(--mainWite);
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+/* ======================================================= */
+
+/* ProductList */
+
+.text-title {
+  font-family: "Permanet Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+  color: var(--mainBlue);
+}
+
+.text-bright {
+  color: var(--LightBlue);
+}
+/* ======================================================== */
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--lightDark);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--lightDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--lightDark) !important;
+  color: var(--mainWite) !important;
+}
+
+.cart-item {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--lightYellow);
+}
