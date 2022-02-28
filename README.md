@@ -6,8 +6,9 @@
 
 <h3>Feathers</h3>
 <ul>
-  <li>Added Product to cart</li>
-  <li>Can remove product in cart</li>
+  <li>Add items to the cart</li>
+  <li>View the cart and remove items from it</li>
   <li>calculator price All Products</li>
   <li>can you add quantity on the same type</li>
+  <li>responsive Mobile, tablet and desktop </li>
 </ul>
